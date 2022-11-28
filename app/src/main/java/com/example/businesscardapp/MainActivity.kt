@@ -52,6 +52,12 @@ fun TaskCompletedScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        Column (
+            modifier = Modifier
+            .padding(top = 240.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center){
+        }
         val image = painterResource(R.drawable.android_logo)
         Image(painter = image,
             contentDescription = null,
